@@ -1,0 +1,22 @@
+name: uts_quiz_app
+description: A simple multi-platform quiz app for UTS
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo_light.png   # untuk mode terang
+    - assets/images/logo_dark.png    # untuk mode gelap
+    
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
